@@ -7,25 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <title>Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     <main>
-        <section class="form">
+        <!-- Comienza la seccion de los formularios -->
+        <section class="formularios">
             <h1>Welcome back</h1>
             <p>Welcome back! Please enter your details.</p>
             <form action="">
-                <input type="email">
-                <input type="password">
-                <input type="checkbox">
-                <button>sign in</button>
-                <button>sign in with Google</button>
+                <div class="email">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter your email" maxlength="50" required>
+                </div>
+                <div class="password">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="⁕⁕⁕⁕⁕⁕⁕" maxlength="16" required>
+                </div>
+                <div class="check">
+                    <input type="checkbox">
+                    <label for="">Remember for 30 days</label>
+                    <a href="">Forgot password</a>
+                </div>
+                <button class="signin">Sign in</button>
+                <button class="signing"> <img src="google.svg" alt=""> Sign in with Google</button>
             </form>
             <p>Don't have an account? <a href="">Sign up for free</a> </p> 
         </section>
+        <!-- Termina la seccion de los formularios -->
+
+
+        <!-- Comienza la seccion de las reseñas -->
         <section class="image">
-            <div>
-               
-            </div>
             <h2>"We've been using Untitled to kick <br> 
                 start every new project and can't <br>
                 imagine working without it."
@@ -43,7 +57,7 @@
             <button><i class="bi bi-arrow-left"></i></button>
             <button><i class="bi bi-arrow-right"></i></button>
         </section>
-
+        <!-- Finaliza la seccion de las reseñas -->
     </main>
 </body>
 </html>

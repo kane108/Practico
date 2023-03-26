@@ -1,23 +1,77 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+*{
+    padding: 0;
     margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight:400;
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
 main{
     display: flex;
     justify-content: space-between;
 }
-.image img{
-    width: 800px;
-    height: 760px;
-}
-
 .image{
     width: 50%;
-    background-image: url(img4.jpg);
-    background-size: contain;
+    background-image: url(img.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 456px;
+    height: 100vh;
 }
-.form{
+.formularios{
+    width: 50%;
+    margin-top: 12%;
+}
+.formularios h1, p{
+    margin-left: 20%;
+    line-height: 45px;
+}
+.formularios form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
     width: 50%;
 }
-
+.password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.email{
+        display: flex;
+    flex-direction: column;
+}
+button:hover{
+    color: green;
+}
+.check{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.check a{
+    margin-left: 45px;
+}
+.formularios button{
+    line-height: 40px;
+}
+.signing{
+    margin-top: 15px;
+    background-color: white;
+}
+.signing img{
+    width: 30px;
+    position: absolute;
+    left: 248px;
+    bottom: 240px;
+}
+.signin{
+    background-color: rgb(17, 23, 39);
+    color: white;
+}
+button{
+    font-weight: 600;
+}
