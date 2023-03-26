@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,200&display=swap');
 /* Estilos generales */
 *{
     padding: 0;
@@ -27,6 +27,9 @@ button:hover{
 
 button{
     font-weight: 600;
+}
+::placeholder{
+    text-indent: 15px;
 }
 /* Finalizan los estilos generales */
 
@@ -115,7 +118,7 @@ button{
 
 
 .formularios p{
-    font-weight: 200;
+    font-weight: 400;
     color: rgb(123, 124, 125);
 }
 .formularios h1{
@@ -123,11 +126,85 @@ button{
 }
 /* Finaliza estilo de seccion formularios */
 
-
+/* Comienza la seccion reseñas */
 .image{
     width: 50%;
-    background-image: url(img.jpg);
+    background-image: url(img2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+
+.block{
+    width: 80%;
+    background-color: rgba(203, 203, 203, 0.69);
+    margin: 0 auto;
+    margin-top: 57%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(203, 203, 203, 0.836);
+}
+
+
+.block h2{
+    color: white;
+    font-weight: 500;
+}
+.block h1{
+    color: white;
+    font-weight: 500;
+    margin-top: -25px;
+}
+.block h4{
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.block p{
+    color: white;
+    margin-left: -0px;
+    font-weight: 100;
+}
+
+
+.stars{
+    text-align: right;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.buttons button{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    color: white;
+    background-color: rgba(109, 109, 110, 0);
+    width: 50px;
+    height: 50px;
+    line-height: -200px;
+}
+.buttons{
+    margin-left: 322px;
+    margin-top: 20px;
+}
+.right{
+    margin-left: 30px;
+}
+.left i{
+    font-size: 20px;
+}
+.right i{
+    font-size: 20px;
+}
+.sisas{
+    display: flex;
+    justify-content: space-between;
+}
+/* Finaliza la seccion de reseñas */
