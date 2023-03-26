@@ -1,3 +1,23 @@
-main{
-    display: grid;
+body{
+    margin: 0;
 }
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    width: 800px;
+    height: 760px;
+}
+
+.image{
+    width: 50%;
+    background-image: url(img4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 456px;
+}
+.form{
+    width: 50%;
+}
+
