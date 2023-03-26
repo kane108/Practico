@@ -1,34 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+/* Estilos generales */
 *{
     padding: 0;
     margin: 0;
 }
+
 a{
     text-decoration: none;
     color: black;
-    font-weight:400;
+    font-weight:500;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 main{
     display: flex;
     justify-content: space-between;
 }
-.image{
-    width: 50%;
-    background-image: url(img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+
+button:hover{
+    color: rgb(252, 232, 195);
+    cursor: pointer;
 }
+
+button{
+    font-weight: 600;
+}
+/* Finalizan los estilos generales */
+
+
+/* Estilo de la seccion formulario */
 .formularios{
     width: 50%;
     margin-top: 12%;
-}
+}  
+
+
 .formularios h1, p{
     margin-left: 20%;
-    line-height: 45px;
+    line-height: 40px;
 }
 .formularios form{
     display: flex;
@@ -36,18 +48,34 @@ main{
     margin-left: 20%;
     width: 50%;
 }
+
+
 .password{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
 }
 .email{
-        display: flex;
+    display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
-button:hover{
-    color: green;
+.email input{
+    line-height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(239, 238, 241);
 }
+.password input{
+    line-height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(239, 238, 241);
+}
+
+
 .check{
     margin-top: 15px;
     margin-bottom: 10px;
@@ -56,22 +84,50 @@ button:hover{
     margin-left: 45px;
 }
 .formularios button{
-    line-height: 40px;
+    line-height: 50px;
 }
+
+
 .signing{
     margin-top: 15px;
-    background-color: white;
+    border-style: solid;
+    border-color: rgb(239, 238, 241);
+    border-width: 2px;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .signing img{
-    width: 30px;
-    position: absolute;
-    left: 248px;
-    bottom: 240px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
 }
+
+
 .signin{
     background-color: rgb(17, 23, 39);
     color: white;
+    border-radius: 5px;
+    border-color: rgb(239, 238, 241);
+    border-style: solid;
 }
-button{
-    font-weight: 600;
+
+
+.formularios p{
+    font-weight: 200;
+    color: rgb(123, 124, 125);
+}
+.formularios h1{
+    font-size: 32px;
+}
+/* Finaliza estilo de seccion formularios */
+
+
+.image{
+    width: 50%;
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
